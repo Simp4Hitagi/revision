@@ -4,10 +4,22 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="Stylesheet" href=".styles/style.css">
+    <link rel="stylesheet" href="./styles/style.css">
     <title>Revision</title>
 </head>
 <body>
+    <header>
+        <img src="https://i.postimg.cc/d34qRzyM/moonlight-sun-post.jpg" alt="logo">
+        <nav class="menu">
+            <ul class="menu-list">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+
+    </header>
+    <main>
     <!-- Unordered list -->
     <section>
         <h2>Unordered list</h2>
@@ -40,12 +52,12 @@
             </thead>
             <tbody>
                 <tr>
-                    <td>Deno</td>
+                    <td><b>Deno</b><sub>Surname</sub></td>
                     <td>Rautenbach</td>
                     <td>076 920 6373</td>
                 </tr>
                 <tr>
-                    <td>Luvuyo</td>
+                    <td><i>Luvuyo</i></td>
                     <td>April</td>
                     <td>068 219 3223</td>
                 </tr>
@@ -57,8 +69,55 @@
             </tbody>
         </table>
         <section>
+            <!-- Image -->
             <h2>Image</h2>
         <img src="https://i.postimg.cc/CMqDSJVF/Fb-L4bw-XVUAITynb.jpg" alt="revision">
     </section>
+    <section>
+        <!-- Form -->
+        <h2>Form</h2>
+        <form action="https://formspree.io/f/xlevnzeq">
+            <div>
+                <input type="text" name="name" placeholder="Enter your name">
+            </div>
+            <div>
+                <input type="text" name="surname" placeholder="Enter your surname">
+            </div>
+            <div>
+                <input type="password" name="password" placeholder="Enter your password">
+            </div>
+            <div>
+                <span>Male</span> <input type="radio" name="gender">
+                <span>Female</span> <input type="radio" name="gender">
+            </div>
+            <div>
+                <label>Subjects:</label>
+                <span>HTML 5<input type="checkbox" name="subject" ></span>
+                <span>CSS 3<input type="checkbox" name="subject" ></span>
+                <span>Bootstrap<input type="checkbox" name="subject" ></span>
+                <span>JavaScript<input type="checkbox" name="subject" ></span>
+            </div>
+            <div>
+                <button type="submit">Submit</button>
+            </div>
+        </form>
+
+    </section>
+    <h3>Something Important</h3>
+    <p><strong>Lorem </strong>Lorem ipsum dolor sit <em>amet consectetur</em> adipisicing elit. Cupiditate possimus est facilis placeat? Et voluptatum consequatur nihil nisi quia odit neque amet, officia esse molestiae minus aut excepturi reprehenderit quasi.
+    Ab <small>sint voluptates</small>quos commodi neque ipsam velit <mark>laudantium animi</mark> ad quas, accusamus totam quia doloremque voluptas dolorem quod tenetur iusto dicta rerum eaque, quis praesentium. Quia eum blanditiis quisquam!</p>
+
+    <h4>And another thing</h4>
+    <p>
+        <small>Lorem ipsum dolor</small>, sit <sub>amet consectetur</sub> adipisicing elit. Fugiat eum officiis asperiores rem corporis quam fugit alias eos aliquid maxime. Dicta sapiente culpa sit repellendus nam cum inventore quod veritatis?
+        <del>Repudiandae</del>, eligendi tenetur assumenda unde doloremque, magni voluptate nulla facilis asperiores, quos odit voluptatibus voluptates! Consectetur totam laudantium quasi, exercitationem, nulla optio corporis consequuntur distinctio recusandae sit rem quam excepturi!
+        Nobis, error nam enim laboriosam architecto consequatur unde velit ullam <sup>sapiente expedita </sup>officiis voluptatum repellendus maxime pariatur iste numquam vel, tenetur illum suscipit vitae. Illo eos perferendis quasi iste accusamus!
+        <ins>In nostrum repellendus</ins> non qui, impedit sint reiciendis inventore, nihil quisquam magni quia odit, maxime tenetur obcaecati ducimus. Cumque quaerat, nam alias ducimus nostrum id maxime ullam impedit ea? Ea!
+        Quod reiciendis consequatur enim quisquam. Mollitia assumenda quod consequatur voluptatem eaque ad, voluptatibus a magnam accusantium aspernatur ex, odit ullam maiores ea tenetur nam est natus! Reprehenderit vel ab debitis?<sup>2</sup>
+    </p>
+</main>
+<footer>
+    <p>Copyright &copy; 2022</p>
+</footer>
 </body>
 </html>
